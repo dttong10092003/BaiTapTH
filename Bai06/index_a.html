@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 06</title>
+    <style>
+        table{
+            font-size: 40px;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .white{
+            background-color: white;
+        }
+        div{
+            width: 500px;
+            height: 400px;
+            padding: 20px;
+            background-color: orange;
+            position: relative;
+            left: 30%;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+            <table border="3" cellpadding="25" width="500px" height="300px">
+                <tr>
+                    <td class="white">1</td>
+                    <td class="white" colspan="4">2</td>
+                </tr>
+                <tr>
+                    <td class="white" rowspan="3">3</td>
+                    <td class="orange">4</td>
+                    <td class="orange">5</td>
+                    <td class="yellow" colspan="2" rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td class="orange">7</td>
+                    <td class="orange">8</td>
+                </tr>
+                <tr>
+                    <td class="yellow" colspan="2">9</td>
+                    <td class="yellow" colspan="2">10</td>
+                </tr>
+            </table>
+    </div>
+    
+</body>
+</html>
